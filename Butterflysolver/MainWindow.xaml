@@ -5,12 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Butterflysolver"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Butterfly solver" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="207"/>
+            <ColumnDefinition Width="12"/>
         </Grid.ColumnDefinitions>
+        <TextBlock Margin="10,12,172,25">X0</TextBlock>
+        <TextBox Name="input0" Grid.Row="0" MaxLength="100" Margin="42,10,42,9" />
+        <TextBox Name="input1" Grid.Row="1" MaxLength="100" Margin="42,10,42,9" />
+        <TextBlock Margin="10,18,172,19" Grid.Row="1"><Run Text="X1"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,17,172,20" Grid.Row="2"><Run Text="X2"/><LineBreak/><Run/></TextBlock>
+        <TextBox Name="input2" Grid.Row="2" MaxLength="100" Margin="42,9,42,10" />
+        <TextBlock Margin="10,18,172,19" Grid.Row="3"><Run Text="X3"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,21,172,16" Grid.Row="4"><Run Text="X4"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,18,172,19" Grid.Row="5"><Run Text="X5"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,18,172,19" Grid.Row="6"><Run Text="X6"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Margin="10,17,172,20" Grid.Row="7"><Run Text="X7"/><LineBreak/><Run/></TextBlock>
+        <TextBox Name="input3" Grid.Row="3" MaxLength="100" Margin="42,10,42,9" />
+        <TextBox Name="input4" Grid.Row="4" MaxLength="100" Margin="42,10,42,9" />
+        <TextBox Name="input5" Grid.Row="5" MaxLength="100" Margin="42,10,42,9" />
+        <TextBox Name="input6" Grid.Row="6" MaxLength="100" Margin="42,10,42,9" />
+        <TextBox Name="input7" Grid.Row="7" MaxLength="100" Margin="42,10,42,9" />
 
     </Grid>
 </Window>
