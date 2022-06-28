@@ -37,6 +37,8 @@
         <TextBox Name="input5" Grid.Row="5" MaxLength="100" Margin="42,10,42,9" />
         <TextBox Name="input6" Grid.Row="6" MaxLength="100" Margin="42,10,42,9" />
         <TextBox Name="input7" Grid.Row="7" MaxLength="100" Margin="42,10,42,9" />
+        <Button Grid.Column="1" Margin="238,15,-399,-7" Grid.Row="7" Click="Button_Click_1" Content="Calculate"></Button>
+
 
     </Grid>
 </Window>
